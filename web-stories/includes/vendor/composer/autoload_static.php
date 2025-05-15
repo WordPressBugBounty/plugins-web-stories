@@ -4,7 +4,7 @@
 
 namespace Google_Web_Stories_Composer\Autoload;
 
-class ComposerStaticInit5de95bc5b177122cfc345bbe4a846cec
+class ComposerStaticInit7a9f4ed70a93d19ff6487a06541c9f85
 {
     public static $files = array (
         '4fd4eff0e3c3662a20875366933cfd84' => __DIR__ . '/../..' . '/polyfills/mbstring.php',
@@ -199,7 +199,7 @@ class ComposerStaticInit5de95bc5b177122cfc345bbe4a846cec
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->classMap = ComposerStaticInit5de95bc5b177122cfc345bbe4a846cec::$classMap;
+            $loader->classMap = ComposerStaticInit7a9f4ed70a93d19ff6487a06541c9f85::$classMap;
 
         }, null, ClassLoader::class);
     }
